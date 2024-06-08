@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willify - Register</title>
+    <link rel="stylesheet" href="./assets/css/styles1.css">
+    <link rel="icon" type="image/png" href="assets/image/musical-note.png" />
+</head>
+<body>
+    <header>
+        <h1>Willify</h1> 
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="song.html">Lagu</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="about.html">Tentang Kita</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Register</h2>
+        <form id="register-form">
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Umur:</label>
+                <input type="number" id="age" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Jenis Kelamin:</label>
+                <select id="gender" class="form-control">
+                    <option value="">Pilih Jenis Kelamin</option>
+                    <option value="male">Laki-laki</option>
+                    <option value="female">Perempuan</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Willify. All rights reserved.</p>
+    </footer>
+    <script src="./assets/javascript/script.js"></script>
+</body>
+</html>
